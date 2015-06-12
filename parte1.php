@@ -2,8 +2,8 @@
 
 require_once "sendgrid/newsletter.php";
 
-$sg_user = 'vlance';
-$sg_api_key = 'vlance2382';
+$sg_user = '';
+$sg_api_key = '';
 $sendgrid = new sendgridNewsletter($sg_user, $sg_api_key, true, false);
 
 $list = 'Teste3';

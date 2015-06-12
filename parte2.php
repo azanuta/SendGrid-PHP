@@ -2,8 +2,8 @@
 
 require_once "sendgrid/newsletter.php";
 
-$sg_user = 'vlance';
-$sg_api_key = 'vlance2382';
+$sg_user = '';
+$sg_api_key = '';
 
 //Creates a new SendGrid Newsletter API object to make calls with
 /*
